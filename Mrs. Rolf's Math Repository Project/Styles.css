@@ -1,0 +1,239 @@
+/* Custom Font */
+ @font-face { font-family: Milky Road; src: url('milkyroad.ttf'); } 
+ @font-face { font-family: Milky Road; font-weight: bold; src: url('milkyroad.ttf');}
+
+/* Style default body content */
+body {
+    font-family: Georgia, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', serif;  
+    font-size:12px; 
+    background-color:white;
+    background-position:top;
+    }
+
+/* Style the navigation block*/
+ nav {
+    float:right;
+    width:175px; 
+    background-color:#7D3780;
+    padding:5px 5px 5px 1px;
+    box-sizing:border-box;
+    margin:15px;
+    font-size:14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }  
+
+/* Style the course indicator on each page*/
+aside {
+    text-align:right;
+    }
+
+
+/* Style the title block on each page */
+.title {
+    background-color:#E9BD43;
+    width:50%;
+    font-family: Milky Road, serif;
+    text-align:center; 
+    color:black; 
+    padding:8px;
+    border-radius: 25px;
+    float:left;
+    padding:5px 5px 5px 1px;
+    margin:15px;
+    white-space: wrap;
+    overflow: auto;
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+    }
+
+.unit {
+    background-color:#E9BD43;
+    font-family: Milky Road, serif;
+    text-align:center; 
+    color:black; 
+    padding:8px;
+    border-radius: 25px;
+    overflow: auto;
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+    }
+
+
+/* Style the content sections on each unit page and the captions within*/
+.caption {
+        font-size: 14px;
+        text-align: center;
+        color:White;
+        }
+
+#GuideDocs{
+    text-align:center;
+    margin:10px auto;
+    background-color: #4A2C40;
+    color:black;
+    }
+
+#GuideDocs a{
+    margin:30px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    }
+
+#obj1{
+    text-align:center;
+    margin:10px auto;
+    background-color: rgb(45, 32, 56);
+    color:black;
+    }
+
+#obj1 a{
+    margin:30px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    }
+
+#obj2{
+    text-align:center;
+    margin:10px auto;
+    background-color: #E9BD43;
+    color:black;
+    }
+
+#obj2 a{
+    margin:30px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    }
+
+#obj3{
+    text-align:center;
+    margin:10px auto;
+    background-color: #7D3780;
+    color:black;
+    }
+
+#obj3 a{
+    margin:30px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    }
+
+#obj4{
+    text-align:center;
+    margin:10px auto;
+    background-color: rgb(45, 32, 56);
+    color:black;
+    }
+
+#obj4 a{
+    margin:30px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    }
+
+/* Text Styles*/
+h1 {
+    color:#f1b306;
+    font-family: Milky Road, serif;
+    }
+
+h2 {
+    color:black;
+    background-color:white;
+    width:50%;
+    font-family: Milky Road, serif;
+    font-size: 24px;
+    text-align:center; 
+    padding:8px;
+    border-radius: 25px;
+    float:center;
+    padding:5px 5px 5px 1px;
+    margin:15px;
+    white-space: wrap;
+    overflow: auto;
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+    }
+
+p {
+    font-size:14px;
+    }
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+    
+
+/* 
+
+Next & Previous Buttons 
+.prev, .next {
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius:0 3px 3px 0;
+    user-select:none;}
+
+// Position the "next button" to the right
+.next{
+    right:0;
+    border-radius: 3px 0 0 3px;}
+
+// On hover, add a transparent background
+.prev:hover, next:hover {
+    background-color:rgba(0,0,0,0.8);}
+
+
+
+// Dots/Bullets/Indicators
+.dot {
+    cursor:pointer;
+    height:15px;
+    width:15px;
+    margin:0 2px;
+    background-color:#bbb;
+    border-radius:50%;
+    display:inline-block;
+    transition:background-color 0.6s ease;}
+
+.home {text-align:right;}
+
+*/
