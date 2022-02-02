@@ -8,7 +8,7 @@
         <body>
 
 <!--Navbar Header-->
-<!--Consider what would be more useful, search this page, search this site, or google search, then figure out how to program it.  Google search could be good for finding aumentation resources-->
+<!--Figure out how to embed a Google or Default Browswer Search Engine-->
 
             <header class="p-3 bg-dark text-white">
                 <div class="container">
@@ -25,7 +25,7 @@
                     </ul>
             
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                      <input type="search" class="form-control form-control-dark" placeholder="Search this page..." aria-label="Search">
+                      <input type="search" class="form-control form-control-dark" placeholder="Search Google..." aria-label="Search">
                     </form>
             
                     <div class="text-end">
@@ -36,22 +36,23 @@
             </header>
 
 <!--Album Header & Unit Thumbnails/Links-->
-<!--Can I get an href to jump to a page when it opens?  I want the alignment study to open on page 100-->
-
+<!--blurb offsets left above displays of 1000...see if that fixes it-->
             <main>
             
                 <section class="py-5 text-center container">
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="fw-dark">7th Grade Math <hr> Unit Pages </h1>
-                    <p class="col-lg-10 fs-5">Each unit of study below includes a page of vetted resources as well as a Student Module that can be administered as-is, or augmented to best support your students.</p>
+                    <p class="fs-5">Each unit of study below includes a page of vetted resources as well as a Student Module that can be administered as-is, or augmented to best support your students.</p>
                     <p>
                         <a href="https://www.education.ne.gov/wp-content/uploads/2017/07/2015_Nebraska_College_and_Career_Standards_for_Mathematics_Vertical.pdf" target="_blank" alt="Hyperlink to NDE State Math Standards" title="Click to Visit the NDE Website" class="btn btn-primary my-2">NDE State Standards</a>
-                        <a href="https://www.education.ne.gov/wp-content/uploads/2017/07/Math_CC_to_NE_Final2013.pdf" target="_blank" alt="Hyperlink to NDE's Common Core Alignment Study (pg 100)" title="Click to Visit the NDE's Common Core Alignment Study" class="btn btn-secondary my-2">Common Core Alignment Study</a>
+                        <a href="https://www.education.ne.gov/wp-content/uploads/2017/07/Math_CC_to_NE_Final2013.pdf#page=100" target="_blank" alt="Hyperlink to NDE's Common Core Alignment Study (pg 100)" title="Click to Visit the NDE's Common Core Alignment Study" class="btn btn-secondary my-2">Common Core Alignment Study</a>
                     </p>
                     </div>
                 </div>
                 </section>
+
+<!--cards aren't stacking on mobile sized screens-->
             
                 <div class="album py-5 bg-light">
                 <div class="container">
@@ -267,9 +268,8 @@
   
 
 <!--Sticky Footer-->
-<!--footer isn't sticking to bottom, find missing code in bootstrap-->
             
-            <footer class="footer mt-auto py-3 bg-dark">
+            <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
                 <div class="container">
                 <span class="text-white">©2022 Carina Rolf</span>
                 </div>
