@@ -24,13 +24,22 @@
                         <li><a href="https://drive.google.com/drive/folders/0B56cc7vk_7fWMFBhVVpHLTFERzA?resourcekey=0-uqGwc9fh-OlF0I5F6wod4A" target="_blank" title="Opens MPS iM2 Folder in a new tab" class="nav-link px-2 text-white">District Resources</a></li>&nbsp;&nbsp;
                     </ul>
             
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                      <input type="search" class="form-control form-control-dark" placeholder="Search Google..." aria-label="Search">
+<!--GOOGLE SEARCH-->
+        
+                    <script> 
+                        var domainroot="carinarolf.github.io/index.html"
+                        function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value }     
+                    </script>
+
+                    <form class="search navbar-form navbar-right col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="http://www.google.com/search" method="get"role="search" onSubmit="Gsitesearch(this)"> 
+                        <div class="input-group"> <input name="q" type="hidden" /> 
+                            <input class="form-control" name="qfront" type="search" required class="searchField" placeholder="Google Site Search" maxlength="50%"/> &nbsp;&nbsp;&nbsp;
+                            <div class="text-end"></div>
+                                <span class="input-group-btn"> <button type="submit" class="search-button btn btn-warning"> Search <span class="glyphicon glyphicon-search"></span> </button> </span> 
+                            </div> 
+                        </div>
                     </form>
-            
-                    <div class="text-end">
-                      <button type="button" class="btn btn-warning">Search</button>
-                    </div>
+
                   </div>
                 </div>
             </header>
