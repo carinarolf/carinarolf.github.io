@@ -3022,7 +3022,7 @@ textarea.form-control-lg {
   border-color: #8b2942;
 }
 .btn-primary:hover {
-  color: rgb(12, 12, 12)fff;
+  color: rgb(12, 12, 12);
   background-color: #ffca2c;
   border-color: #ffca2c;
 }
@@ -3048,8 +3048,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #212529; 
+  border-color: #212529;
 }
 .btn-secondary:hover {
   color: rgb(12, 12, 12);
@@ -3259,13 +3259,15 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #0d6efd;
-  border-color: #0d6efd;
+  color: #fff;
+  font-weight: 500;
+  background-color: #8b2942;
+  border-color: #8b2942;
 }
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  color: rgb(12, 12, 12);
+  background-color: #ffca2c;
+  border-color: #ffca2c;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
@@ -3286,8 +3288,8 @@ textarea.form-control-lg {
 .btn-outline-secondary {
   color: #fff;
   font-weight: 500;
-  background-color: #8b2942;
-  border-color: #8b2942;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-outline-secondary:hover {
   color: rgb(12, 12, 12);
@@ -7713,8 +7715,9 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  --bs-text-opacity: /*was a 1, I deleted the opacity of secondary text because it didn't meet WCAG*/;
+  /*color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;*/
+  color:var(--bs-yellow) !important;
 }
 
 .text-success {
