@@ -3,7 +3,7 @@
         <head>
             <title>Millard Public Schools 7th Grade Math Course</title>
             
-<!-- Required meta tags -->
+<!-- Required meta tags for responsiveness on mobile screens  -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,16 +12,11 @@
 
 <!--Style the content sections on each unit page and the captions within here to override bootstrap css-->
           <style>
-                .caption {
-                  font-size: 14px;
-                  text-align: center;
-                  color:White;
-                }
               
                 #GuideDocs{
                   text-align:center;
                   margin:10px auto;
-                  background-color: #4A2C40;
+                  background-color: #ffca2c;
                   color:black;
                 }
               
@@ -32,63 +27,21 @@
                   color:black;
                 }
               
-                #obj1{
+                #resource{
                   text-align:center;
                   margin:10px auto;
-                  background-color: rgb(45, 32, 56);
-                  color:black;
+                  background-color: #4f061c;
+                  color:#fff;
                 }
               
-                #obj1 a{
+                #resource a{
                   margin:30px 20px;
                   display:inline-block;
                   text-decoration:none;
-                  color:black;
+                  color:#fff;
                 }
               
-                #obj2{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: #E9BD43;
-                  color:black;
-                }
-              
-                #obj2 a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:black;
-                }
-              
-                #obj3{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: #7D3780;
-                  color:black;
-                }
-              
-                #obj3 a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:black;
-                }
-              
-                #obj4{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: rgb(45, 32, 56);
-                  color:black;
-                }
-              
-                #obj4 a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:black;
-                }
-              
-              /* Style the button that is used to open and close the collapsible content */
+/* Style the button that is used to open and close the collapsible content */
                 .collapsible {
                   background-color: #eee;
                   color: #444;
@@ -101,12 +54,12 @@
                   font-size: 15px;
                 }
               
-              /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
                 .active, .collapsible:hover {
                   background-color: #ccc;
                 }
               
-              /* Style the collapsible content. Note: hidden by default */
+/* Style the collapsible content. Note: hidden by default */
                 .content {
                   padding: 0 18px;
                   display: none;
@@ -123,7 +76,7 @@
 
 <!--Navbar Header-->
 <!--Consider what would be more useful, search this page, search this site, or google search, then figure out how to program it.  Google search could be good for finding aumentation resources-->
-<!--fix all maroon colors by inspecting the MPS color-->
+
             <header class="p-3 bg-dark text-white">
                 <div class="container">
                   <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -136,48 +89,51 @@
                       <li><a href="https://docs.google.com/document/d/1DSvD6bMi6cMdWTySgXqk5esQ7i-o1imH33nt2Q1JS5k/edit" target="_blank" title="Opens MPS Course Guide in a new tab" class="nav-link px-2 text-white">Course Guide</a></li>&nbsp;&nbsp;
                       <li><a href="UnitPages.html" class="nav-link px-2 text-secondary">Units of Study</a></li>&nbsp;&nbsp;
                       <li><a href="https://drive.google.com/drive/folders/0B56cc7vk_7fWMFBhVVpHLTFERzA?resourcekey=0-uqGwc9fh-OlF0I5F6wod4A" target="_blank" title="Opens MPS iM2 Folder in a new tab" class="nav-link px-2 text-white">District Resources</a></li>&nbsp;&nbsp;
-                    </ul>
+                  </ul>
             
 <!--GOOGLE SEARCH-->
         
-                    <script> 
-                      var domainroot="carinarolf.github.io/index.html"
-                      function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value }     
-                    </script>
+                  <script> 
+                    var domainroot="carinarolf.github.io/index.html"
+                    function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value }     
+                  </script>
 
-                    <form class="search navbar-form navbar-right col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="http://www.google.com/search" method="get"role="search" onSubmit="Gsitesearch(this)"> 
-                      <div class="input-group"> <input name="q" type="hidden" /> 
-                          <input class="form-control" name="qfront" type="search" required class="searchField" placeholder="Google Site Search" maxlength="50%"/> &nbsp;&nbsp;&nbsp;
-                          <div class="text-end"></div>
-                              <span class="input-group-btn"> <button type="submit" class="search-button btn btn-warning"> Search <span class="glyphicon glyphicon-search"></span> </button> </span> 
-                          </div> 
-                      </div>
-                    </form>
+                  <form class="search navbar-form navbar-right col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="http://www.google.com/search" method="get"role="search" onSubmit="Gsitesearch(this)"> 
+                    <div class="input-group"> <input name="q" type="hidden" /> 
+                        <input class="form-control" name="qfront" type="search" required class="searchField" placeholder="Google Site Search" maxlength="50%"/> &nbsp;&nbsp;&nbsp;
+                        <div class="text-end"></div>
+                            <span class="input-group-btn"> <button type="submit" class="search-button btn btn-warning"> Search <span class="glyphicon glyphicon-search"></span> </button> </span> 
+                        </div> 
+                    </div>
+                  </form>
 
                 </div>
               </div>
             </header>
 
-<!--Content Placeholder-->
-<!--div id container was added to stick the footer to the bottom, css code sets 95% height-->
-
+<!--Unit/Page Title-->
+          
             <div id="container">
-                <p>Unit 5 Student Module</p>
-
-                
-           
+                <p>Unit 5 Module</p>
             </div>
-
+  
+<!--Link to External Javascript -->
+      <script src="Rolf's Digital Math Repository.js"></script>
+  
+          
 <!--Sticky Footer-->
             
-            <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
-                <div class="container">
-                <span class="text-white">©2022 Carina Rolf</span>
-                </div>
-            </footer>
+      <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+        <div class="container">
+        <span class="text-white">©2022 Carina Rolf</span>
+        </div>
+      </footer>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-          </body>
+    </body>
 
-    </html>
+</html>
+
+  
+  
