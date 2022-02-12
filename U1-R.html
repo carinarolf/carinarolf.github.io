@@ -3,15 +3,12 @@
         <head>
             <title>Millard Public Schools 7th Grade Math Course</title>
 
-
-
-
-<!--MAKE THE COMMENT SECTION MATCH PAGE THEME-->
-
-
-
-
-
+<!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-N57LNFP');</script>
 
 <!-- Required meta tags for responsiveness on mobile screens  -->
             <meta charset="utf-8">
@@ -21,6 +18,8 @@
             <link rel="stylesheet" href="styles.css">
 
 <!--Styles I need to override bootstrap css-->
+<!--Try to find a way to get it into external style sheet-->
+<!--ADD the important tag to these and try putting it back into the bootstrap style sheet  -->
           <style>
               
                 #GuideDocs{
@@ -64,7 +63,7 @@
                   font-size: 15px;
                 }
               
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
                 .active, .collapsible:hover {
                   background-color: #ccc;
                   color:black
@@ -84,6 +83,10 @@
         </head> 
     
         <body>
+
+<!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N57LNFP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!--Navbar Header-->
 <!--Consider what would be more useful, search this page, search this site, or google search, then figure out how to program it.  Google search could be good for finding aumentation resources-->
@@ -124,9 +127,10 @@
 
 <!--Unit/Page Title-->
           
+                <br>
                 <div class="row py-lg-5 text-center">
                     <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-dark">Unit 1 <hr> Integer Operations </h1>
+                    <h1 class="fw-dark">Unit 1: Integer Operations <hr> Resource Collection </h1>
                     </div>
                 </div>
             <br>
@@ -223,7 +227,18 @@
                               <img src="images/ck12.png" height=150px class="resource" alt="CK-12 Absolute Value Skill Development" title="CK-12 Skill Development">
                               <div class="caption">CK-12 Skill Development</div>
                               </a>
-                      
+
+<!--Instead of a div for fat white line, look at the site below and do an inline css styling on the hr tag-->
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr-->
+<!--https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag-->
+<!--use background color and height in style sheet...add class to code so all hr's don't change
+    .class name hr {
+    border: none;
+    height: 10px;
+    /* Set the hr color */
+    background-color: #FFFFF; /* Modern Browsers */
+}
+-->   
                       <div style="height: 10px; background-color: #EAEFF5"></div><br>
                       <h2 style="color:white;">EXPONENTS</h2>
   
@@ -667,6 +682,7 @@
 
 
 <!--Link to External Javascript -->
+<!--Where do comments go??...How do I delete them?-->
       <script src="Rolf's Digital Math Repository.js"></script>
   
           
