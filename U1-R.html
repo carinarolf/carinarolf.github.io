@@ -15,70 +15,10 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Bootstrap CSS -->
-            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet"  type="text/css" href="styles.css">
 
-<!--Styles I need to override bootstrap css-->
-<!--Try to find a way to get it into external style sheet-->
-<!--ADD the important tag to these and try putting it back into the bootstrap style sheet  -->
-          <style>
-              
-                #GuideDocs{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: #ffca2c;
-                  color:black;
-                }
-              
-                #GuideDocs a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:black;
-                }
-              
-                #resource{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: #4f061c;
-                  color:#fff;
-                }
-              
-                #resource a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:#fff;
-                }
-              
-/* Style the button that is used to open and close the collapsible content */
-                .collapsible {
-                  background-color:#4f061c;
-                  color: #fff;
-                  cursor: pointer;
-                  padding: 18px;
-                  width: 100%;
-                  border: none;
-                  text-align: left;
-                  outline: none;
-                  font-size: 15px;
-                }
-              
-/* Background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-                .active, .collapsible:hover {
-                  background-color: #ccc;
-                  color:black
-                }
-              
-/* Style the collapsible content. Note: hidden by default */
-                .content {
-                  padding: 0 18px;
-                  display: none;
-                  overflow: hidden;
-                  background-color: #f1f1f1;
-                }       
-
-              }
-            </style>
+<!--Custom CSS -->
+            <link rel="stylesheet"  type="text/css" href="custom.css">
 
         </head> 
     
@@ -170,497 +110,486 @@
                   <br>
   
   
-  <!--Learning Objective 1-->
-              
-              <br>
-              <h2 class="fw-dark px-2"> <i>Review:</i> Absolute Value, Exponents & Order of Operations </h2>
-              <button type="button" class="collapsible">Click to Expand or Collapse</button>
-                  <div id="resource" class="content"> 
-  
-                      <br>
-                      <h2 style="color:white;">ABSOLUTE VALUE</h2>
-                          
-                      <!--images-->
-                          <a target="_blank" href="images/absVal1.gif" target="_blank">
-                              <img src="images/absVal1.gif" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/absVal2.gif" target="_blank">
-                              <img src="images/absVal2.gif" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/AbsVal3.png" target="_blank">
-                              <img src="images/AbsVal3.png" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-                          
-                          <a target="_blank" href="images/absVal4.png" target="_blank">
-                              <img src="images/absVal4.png" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/absVal5.gif" target="_blank">
-                              <img src="images/absVal5.gif" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                      <!--videos-->
-                          <a href="https://www.youtube.com/watch?v=BrYy1bgh3Y0&t=19s">
-                              <iframe height="150" src="https://www.youtube.com/embed/BrYy1bgh3Y0" class="resource" alt="Absolute Value Video" title="13 min Math Antics Absolute Value Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">Absolute Value - Math Antics (13 min)</div>
-                              </a>
-  
-                          <a href="https://www.youtube.com/watch?v=dQCNC97Y-mw">
-                              <iframe height="150" src="https://www.youtube.com/embed/dQCNC97Y-mw" class="resource" alt="Absolute Value Video" title="Absolute Value Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">Absolute Value Intro (6.5 min)</div>
-                              </a>
-  
-                      <!--skills development-->
-                          <a target="_blank" href="https://www.khanacademy.org/math/arithmetic/arith-review-negative-numbers/arith-review-abs-value/e/absolute_value">
-                              <img src="images/khans.jpg" height=150px class="resource" alt="Khan Academy Absolute Value Videos & Practice Sets" title="Khan Academy Absolute Value Videos & Practice Sets">
-                              <div class="caption">Khan Academy Practice Sets</div>
-                              </a>
-  
-                          <a target="_blank" href="https://www.ck12.org/search/?q=absolute%20value%20on%20a%20number%20line&source=ck12&grade=7">
-                              <img src="images/ck12.png" height=150px class="resource" alt="CK-12 Absolute Value Skill Development" title="CK-12 Skill Development">
-                              <div class="caption">CK-12 Skill Development</div>
-                              </a>
+<!--Learning Objective 1-->
+            
+            <br>
+            <h2 class="fw-dark px-2"> <i>Review:</i> Absolute Value, Exponents & Order of Operations </h2>
+            <button type="button" class="collapsible">Click to Expand or Collapse</button>
+                <div id="resource" class="content"> 
 
-<!--Instead of a div for fat white line, look at the site below and do an inline css styling on the hr tag-->
-<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr-->
-<!--https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag-->
-<!--use background color and height in style sheet...add class to code so all hr's don't change
-    .class name hr {
-    border: none;
-    height: 10px;
-    /* Set the hr color */
-    background-color: #FFFFF; /* Modern Browsers */
-}
--->   
-                      <div style="height: 10px; background-color: #EAEFF5"></div><br>
-                      <h2 style="color:white;">EXPONENTS</h2>
-  
-                      <!--images-->
-                          <a target="_blank" href="images/exp1.jpg">
-                              <img src="images/exp1.jpg" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/exp2.jpg">
-                              <img src="images/exp2.jpg" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/exp3.png">
-                              <img src="images/exp3.png" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/exp4.png">
-                              <img src="images/exp4.png" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-  
-                          <a target="_blank" href="images/exp5.jpg">
-                              <img src="images/exp5.jpg" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
-                              <div class="caption">Image</div>
-                              </a>
-                          
-                      <!--videos-->
-                          <a href="https://www.youtube.com/watch?v=W3lPO3LrVuE&t=67s">
-                              <iframe height="150" src="https://www.youtube.com/embed/W3lPO3LrVuE" class="resource" alt="4 Minute Exponent Video" title="4 Minute Exponent Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">Caption</div>
-                              </a>
-  
-                          <a href="https://www.youtube.com/watch?v=-zUmvpkhvW8">
-                              <iframe height="150" src="https://www.youtube.com/embed/-zUmvpkhvW8" class="resource" alt="Math Antics 10 minute Video on Exponents" title="Math Antics 10 minute Video on Exponents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">Exponents Intro - Math Antics (10 min)</div>
-                              </a>
-  
-                      <!--Skills Development-->
-                          <a target="_blank" href="https://lsintspl3.wgbh.org/en-us/lesson/mgbh-il-linexp/1">
-                              <img src="images/expInteractive1.JPG" height=150px class="resource" alt="Interactive Activity to Visualize Exponential Growth" title="Interactive Activity to Visualize Exponential Growth">
-                              <div class="caption">Exponential Growth Interactive</div>
-                              </a>   
-  
-                          <a target="_blank" href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-exponents/e/exponents">
-                              <img src="images/khans.jpg" height=150px class="resource" alt="Khan Academy Exponents Videos & Practice Sets" title="Khan Academy Exponents Videos & Practice Sets">
-                              <div class="caption">Khan Academy Practice Sets</div>
-                              </a>   
-  
-                          <a target="_blank" href="https://www.ck12.org/search/?q=exponents&source=ck12&grade=6&grade=7">
-                              <img src="images/ck12.png" height=150px class="resource" alt="CK-12 Skill Development" title="CK-12 Skill Development">
-                              <div class="caption">CK-12 Skill Development</div>
-                              </a>   
-  
-                      
-                      <div style="height: 10px; background-color: #EAEFF5"></div><br>
-                      <h2 style="color:white;">ORDER OF OPERATIONS</h2>
-  
-                      <!--images-->
-                          <a target="_blank" href="images/pemdas1.jpg">
-                              <img src="images/pemdas1.jpg" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
-                              <div class="caption">Image</div>
-                              </a>    
-                              
-                          <a target="_blank" href="images/pemdas2.jpg">
-                              <img src="images/pemdas2.jpg" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
-                              <div class="caption">Image</div>
-                              </a>    
-  
-                          <a target="_blank" href="images/pemdas3.png">
-                              <img src="images/pemdas3.png" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
-                              <div class="caption">Image</div>
-                              </a>    
-                          
-                          <a target="_blank" href="images/pemdas4.jpg">
-                              <img src="images/pemdas4.jpg" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
-                              <div class="caption">Image</div>
-                              </a>    
-  
-                      <!--videos-->
-                          <a href="https://www.youtube.com/watch?v=dAgfnK528RA&t=469s">
-                              <iframe height="150" src="https://www.youtube.com/embed/dAgfnK528RA" class="resource" alt="Math Antics 9.5 minute Video on the Order of Operations " title="Math Antics 9.5 minute Video on the Order of Operations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">PEMDAS - Math Antics (9.5 min)</div>
-                              </a>
-  
-                          <a href="https://www.youtube.com/watch?v=ZzeDWFhYv3E&t=7s">
-                              <iframe height="150" src="https://www.youtube.com/embed/ZzeDWFhYv3E" class="resource" alt="2 minute NumberRock Order of Operations Music Video" title="2 minute NumberRock Order of Operations Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">NumberROCK Music Video (2 min)</div>
-                              </a>
-  
-                         <a href="https://www.youtube.com/watch?v=PheAykMQOVE">
-                              <iframe height="150" src="https://www.youtube.com/embed/PheAykMQOVE" class="resource" alt="2 minute BrainPop Video on the Order of Operations" title="2 minute BrainPop Video on the Order of Operations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">PEMDAS - BrainPOP (2 min)</div>
-                              </a>
-  
-                      <!--Skills Development-->
-                          <a target="_blank" href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-order-of-operations/e/order_of_operations_2">
-                              <img src="images/khans.jpg" height=150px class="resource" alt="Order of Operations Videos & Practice Sets on Khan Academy" title="Order of Operations Videos & Practice Sets on Khan Academy">
-                              <div class="caption">Khan Academy Practice Sets</div>
-                              </a>   
-  
-                          <a target="_blank" href="https://www.ck12.org/c/algebra/order-of-operations/">
-                              <img src="images/ck12.png" height=150px class="resource" alt="Collection of CK-12 Order of Operations Resources" title="Collection of CK-12 Order of Operations Resources">
-                              <div class="caption">CK-12 Resource Collection</div>
-                              </a>   
-                  
-                  </div>
-                  <br>
-                  <br>
-  
-  
-  <!--Learning Objective 2-->
-              <br>
-              <h2 class="fw-dark px-2"> Compare & Order Integers </h2>
-              <button type="button" class="collapsible">Click to Expand or Collapse</button>
-                  <div id="resource" class="content"> 
-                      
-                      <!--images-->
-                          <a target="_blank" href="images/compareInegers1.jpg">
-                              <img src="images/compareInegers1.jpg" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
-                              <div class="caption">Image</div>
-                              </a>  
-  
-                          <a target="_blank" href="images/compareInegers2.png">
-                              <img src="images/compareInegers2.png" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
-                              <div class="caption">Image</div>
-                              </a> 
-  
-                          <a target="_blank" href="images/compareInegers3.jpg">
-                              <img src="images/compareInegers3.jpg" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
-                              <div class="caption">Image</div>
-                              </a> 
-  
-                          <a target="_blank" href="images/compareInegers4.jpg">
-                              <img src="images/compareInegers4.jpg" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
-                              <div class="caption">Image</div>
-                              </a> 
-  
-                      <!--videos-->
-                          <a href="https://www.youtube.com/watch?v=Zv2RbtaWdYU">
-                              <iframe height="150" src="https://www.youtube.com/embed/Zv2RbtaWdYU" class="resource" alt="4 Minute Video on Comparing Integers" title="4 Minute Video on Comparing Integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">Comparing Integers (4 min)</div>
-                              </a>
-  
-                          <a href="https://www.youtube.com/watch?v=n5p307tjsB0">
-                              <iframe height="150" src="https://www.youtube.com/embed/n5p307tjsB0" class="resource" alt="5 Minutes Video on Ordering Integers & Absolute Value" title="5 Minutes Video on Ordering Integers & Absolute Value" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="caption">Ordering Integers (5 min)</div>
-                              </a>
-                      
-                      <!--Skills Development-->
-                          <a target="_blank" href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-negative-number-topic/cc-6th-comparing-negative-numbers/v/ordering-negative-numbers">
-                              <img src="images/khans.jpg" height=150px class="resource" alt="Ordering Integers Practice on Khan Academdy" title="Ordering Integers Practice on Khan Academdy">
-                              <div class="caption">Khan Academy Practice Sets</div>
-                              </a>    
-  
-                          <a target="_blank" href="https://www.ck12.org/search/?q=ordering%20integers&source=ck12&grade=7&grade=6">
-                              <img src="images/ck12.png" height=150px class="resource" alt="Ordering Integers Resource Collection on CK-12" title="Ordering Integers Resource Collection on CK-12">
-                              <div class="caption">CK-12 Resource Collection</div>
-                              </a>   
-  
-                          <a target="_blank" href="https://create.kahoot.it/share/compare-and-order-integers/157319ad-b445-48cf-8481-adea4fa4b5a7">
-                              <img src="images/kahoot.png" height=150px class="resource" alt="Kahoot Interactive Quiz Game for Comparing & Ordering Integers" title="Kahoot Interactive Quiz Game for Comparing & Ordering Integers">
-                              <div class="caption">Kahoot Game</div>
-                              </a>   
-  
-                          <a target="_blank" href="images/compare-and-order-integers-part-1.pdf" download="WORKSHEET Compare & Order Integers Part 1">
-                              <img src="images/compare-and-order-integers-part-1.JPG" height=150px class="resource" alt="Worksheet: Compare & Order Integers Part 1" title="LEFT CLICK to download.  RIGHT CLICK & choose OPEN LINK IN NEW TAB to preview without downloading">
-                              <div class="caption">Worksheet</div>
-                              </a>  
-                              
-                          <a target="_blank" href="https://www.education.com/game/water-rafting-ordering-integers/">
-                              <img src="images/water-rafting-ordering-integers-small-thumbnail.png" height=150px class="resource" alt="Comparing Integers Game" title="Comparing Integers Game">
-                              <div class="caption">Comparing Integers Game</div>
-                              </a>   
-  
-                  </div>
-                  <br>
-                  <br>
-  
-  
-              
-  <!--Learning Objective 3-->
-               <br>
-               <h2 class="fw-dark px-2"> Add & Subtract Integers </h2>
-               <button type="button" class="collapsible">Click to Expand or Collapse</button>
-               <div id="resource" class="content"> 
-                             
-                  <!--images-->
-                      <a target="_blank" href="images/addInt1.png">
-                          <img src="images/addInt1.png" height=150px class="resource" alt="Rules for Integer Addition" title="Rules for Integer Addition">
-                          <div class="caption">Image</div>
-                          </a>
-  
-                      <a target="_blank" href="images/subInt1.png">
-                          <img src="images/subInt1.png" height=150px class="resource" alt="Rules for Integer Subtraction" title="Rules for Integer Subtraction">
-                          <div class="caption">Image</div>
-                          </a>
-  
-                      <a target="_blank" href="images/addSubInt1.png">
-                          <img src="images/addSubInt1.png" height=150px class="resource" alt="Integer addition & subtraction on a number line" title="Integer Addition & Subtraction on a Number Line">
-                          <div class="caption">Image</div>
-                          </a>
-  
-                  <!--videos-->
-                      <a href="https://www.youtube.com/watch?v=_BgblvF90UE">
-                          <iframe height="150" src="https://www.youtube.com/embed/_BgblvF90UE" class="resource" alt="Math Antics 11.5 min video on Adding & Subtracting Integers" title="Math Antics 11.5 min video on Adding & Subtracting Integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">Add & Subtract Integers - Math Antics (11.5 min)</div>
-                          </a>
-  
-                      <a href="https://www.youtube.com/watch?v=DBSviXhkubg">
-                          <iframe height="150" src="https://www.youtube.com/embed/DBSviXhkubg" class="resource" alt="2 Minute Video that helps Visualize and Understand Addition & Subtraction of Negative Numbers" title="2 Minute Video that helps Visualize and Understand Addition & Subtraction of Negative Numbers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">+/- Negative #s (2 min)</div>
-                          </a>
-  
-                      <a href="https://www.youtube.com/watch?v=NS8pYgpD474">
-                          <iframe height="150" src="https://www.youtube.com/embed/NS8pYgpD474" class="resource" alt="7 minute video showing how to teach integer addition & subtraction via a hands-on approach" title="7 minute video showing how to teach integer addition & subtraction via a hands-on approach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">Hands-On Learning (7 min)</div>
-                          </a>
-  
-                  <!--Skills Development-->
-                      <a target="_blank" href="https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-add-and-subtract">
-                          <img src="Images/khans.jpg" height=150px class="resource" alt="Khan Academy Unit on Adding & Subtracting Negative Numbers" title="Khan Academy Unit on Adding & Subtracting Negative Numbers">
-                          <div class="caption">Khan Academy Unit</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/2.2/primary/lesson/modeling-the-addition-of-integers-4424692-msm7-ccss/">
-                          <img src="images/ck12.png" height=150px class="resource" alt="CK12 Interactive Modeling of Integer Addition" title="CK12 Interactive Modeling of Integer Addition">
-                          <div class="caption">Interactive Addition Modeling</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/2.3/primary/lesson/adding-integers-other-rational-numbers-4424693-msm7-ccss/">
-                          <img src="images/ck12.png" height=150px class="resource" alt="CK12 Interactive Addition of Intgers & Other Rational Numbers" title="CK12 Interactive Addition of Intgers & Other Rational Numbers">
-                          <div class="caption">Interactive Addition</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/2.4/primary/lesson/subtracting-integers-other-rational-numbers-4424694-msm7-ccss/">
-                          <img src="images/ck12.png" height=150px class="resource" alt="CK12 Interactive Subtraction of Integers & Other Rational Numbers" title="CK12 Interactive Subtraction of Integers & Other Rational Numbers">
-                          <div class="caption">Interactive Subtraction</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://create.kahoot.it/share/integer-addition-subtraction/f429ac5e-4999-4a06-a06c-4019aaca24e1">
-                          <img src="images/kahoot.png" height=150px class="resource" alt="31 Question Kahoot with diverse question types" title="31 Question Kahoot with diverse question types">
-                          <div class="caption">31Q Kahoot</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://www.education.com/game/match-add-and-subtract-integers/">
-                          <img src="images/addSubIntGame.JPG" height=150px class="resource" alt="Matching Game for Adding/Subtracting Integers" title="Matching Game for Adding/Subtracting Integers">
-                          <div class="caption">Matching Game</div>
-                          </a>  
-  
-                      <a target="_blank" href="images/add-and-subtract-integersWORKSHEET.pdf" download>
-                          <img src="images/add-and-subtract-integersWORKSHEET.JPG" height=150px class="resource" alt="WORKSHEET: Add & Subtract Integers" title="LEFT CLICK to download.  RIGHT CLICK & choose OPEN LINK IN NEW TAB to preview without downloading">
-                          <div class="caption">Worksheet</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://www.education.com/worksheet/article/integer-addition/">
-                          <img src="images/integer-addition-rules.gif" height=150px class="resource" alt="WORKSHEET Integer Addition Rules" title="WORKSHEET Integer Addition Rules">
-                          <div class="caption">Worksheet</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://www.education.com/worksheet/article/integer-subtraction/">
-                          <img src="images/integer-subtraction-rules.gif" height=150px class="resource" alt="WORKSHEET Integer Subtraction Rules" title="WORKSHEET Integer Subtraction Rules">
-                          <div class="caption">Worksheet</div>
-                          </a>  
-                      
-              </div>
-              <br>
-              <br>
-  
-  
-  
-  <!--Learning Objective 4-->
-               <br>
-               <h2 class="fw-dark px-2"> Multiply & Divide Integers </h2>
-               <button type="button" class="collapsible">Click to Expand or Collapse</button>
-               <div id="resource" class="content"> 
-                             
-                  <!--images-->
-                      <a target="_blank" href="images/multDivIntegers1.jpg">
-                          <img src="images/multDivIntegers1.jpg" height=150px class="resource" alt="Multiplying & Dividing Integer Sign Rules Image" title="Click to open in a new window">
-                          <div class="caption">Image</div>
-                          </a>
-  
-                      <a target="_blank" href="images/multDivIntegers2.png">
-                          <img src="images/multDivIntegers2.png" height=150px class="resource" alt="Multiplying & Dividing Integer Sign Rules Image for Visual Learners" title="Click to open in a new window">
-                          <div class="caption">Image</div>
-                          </a>
-  
-                      <a target="_blank" href="images/multDivIntegers3.png">
-                          <img src="images/multDivIntegers3.png" height=150px class="resource" alt="Multiplying & Dividing Integer Sign Rules Image" title="Click to open in a new window">
-                          <div class="caption">Image</div>
-                          </a>
-  
-                  <!--videos-->
-                      <a href="https://www.youtube.com/watch?v=K_tPbVPfHgk">
-                          <iframe height="150" src="https://www.youtube.com/embed/K_tPbVPfHgk" class="resource" alt="10 minute Math Antics Video on Integer Multiplication & Division" title="10 minute Math Antics Video on Integer Multiplication & Division" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">Math Antics (10 min)</div>
-                          </a>
-  
-                      <a href="https://www.youtube.com/watch?v=b5rK3XzHhTM">
-                          <iframe height="150" src="https://www.youtube.com/embed/b5rK3XzHhTM" class="resource" alt="5 minute Video using the triangle method to multiply & divide integers" title="5 minute Video using the triangle method to multiply & divide integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">Triangle Method (5 min)</div>
-                          </a>
-  
-                      <a href="https://www.youtube.com/watch?v=WM5SyYlcRM4">
-                          <iframe height="150" src="https://www.youtube.com/embed/WM5SyYlcRM4" class="resource" alt="7.5 minute video using story problems to multiply & divid integers" title="7.5 minute video using story problems to multiply & divid integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">Word Problems (7.5 min)</div>
-                          </a>
-  
-                      <a href="https://www.youtube.com/watch?v=JYIj8XUS_g8">
-                          <iframe height="150" src="https://www.youtube.com/embed/JYIj8XUS_g8" class="resource" alt="1.5 minute video with 4 integer multiplication & division examples" title="1.5 minute video with 4 integer multiplication & division examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">4 Examples (1.5 min)</div>
-                          </a>
-  
-                      <a href="https://www.youtube.com/watch?v=3-aryZYsoxU">
-                          <iframe height="150" src="https://www.youtube.com/embed/3-aryZYsoxU" class="resource" alt="5 minute video explaining how to think of the negative sign as 'OPPOSITE'" title="5 minute video explaining how to think of the negative sign as 'OPPOSITE'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          <div class="caption">Negative-->"Opposite" (5 min)</div>
-                          </a>
-  
-                  <!--Skills Development-->
-  
-                      <a target="_blank" href="https://nebraskapublicmedia.pbslearningmedia.org/resource/mmpt-math-ee-intballoon2/multiplying-a-positive-integer-with-a-negative-intege/">
-                          <img src="images/multIntegInteractive1.JPG" height=150px class="resource" alt="Interactive Scenarios for multiplying a positive and negative" title="Interactive Scenarios for multiplying a positive and negative">
-                          <div class="caption">Interactive Scenario</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://nebraskapublicmedia.pbslearningmedia.org/resource/mgbh-math-ns-muldivnegs/multiplying-and-dividing-with-negatives/">
-                          <img src="images/multDivIntegersInteractive2.JPG" height=150px class="resource" alt="Multiplication & Division of Integers Interactive" title="Multiplication & Division of Integers Interactive">
-                          <div class="caption">Interactive</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-multiply-and-divide">
-                          <img src="images/khans.jpg" height=150px class="resource" alt="Khan Academy Unit on Multiplying & Dividing Negative Numbers" title="Khan Academy Unit on Multiplying & Dividing Negative Numbers">
-                          <div class="caption">Khan Academy Unit</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://create.kahoot.it/details/1e12b743-f011-4678-a12b-9d31ca682089">
-                          <img src="images/kahoot.png" height=150px class="resource" alt="36 Question Kahoot with Multi-Step problems & Exponents" title="36 Question Kahoot with Multi-Step problems & Exponents">
-                          <div class="caption">36Q Kahoot</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://www.education.com/worksheet/article/integer-multiplication-and-division-rules/">
-                          <img src="images/integer-multiplication-division-rules.gif" height=150px class="resource" alt="WORKSHEET: Integer Multiplication & Division Rules" title="WORKSHEET: Integer Multiplication & Division Rules">
-                          <div class="caption">Worksheet</div>
-                          </a>  
-  
-              </div>
-              <br>
-              <br>
-              <br>
-  
-  
-  
-  <!--Accumulative Review & Assessments-->
-        
-              <h2 class="fw-dark px-2"> Accumulative Review & Assessments </h2>
-              <button type="button" class="collapsible">Click to Expand or Collapse</button>
-              <div id="GuideDocs" class="content"> 
-                      
-                  <!--Skills Development-->
-                      <a target="_blank" href="https://wow.boomlearning.com/deck/integer-operations-9KbNm3aHwbezFseGs">
-                          <img src="images/BOOMcardsIntegeroperationscover.jpg" height=150px class="resource" alt="10 Card Mixed Operations Practice w/Instant Feedback" title="10 Card Mixed Operations Practice w/Instant Feedback">
-                          <div class="caption">BOOM Cards (10 cards)</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://wow.boomlearning.com/deck/integer-operations-sf8RfX3DNmsmyzMcf">
-                          <img src="images/BOOMcardsIntegeroperationsholiday.png" height=150px class="resource" alt="17 Card Mixed Operations Practice w/Instant Feedback" title="10 Card Mixed Operations Practice w/Instant Feedback">
-                          <div class="caption">BOOM Cards (17 cards)</div>
-                          </a> 
-                      
-                      <a target="_blank" href="https://nearpod.com/t/math/6th/integer-operations-68-L69904146">
-                          <img src="images/NearpodIntegerOps1.JPG" height=150px class="GuideDocs" alt="Nearpod Interactive Activity" title="Nearpod Interactive Activity">
-                          <div class="caption">Nearpod (8 slides)</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://nearpod.com/t/math/8th/assessment-integer-word-problems-L32675573">
-                          <img src="images/NearpodIntegerStoryProbs.JPG" height=150px class="GuideDocs" alt="Nearpod Storyproblem Activity" title="Nearpod Storyproblem Activity">
-                          <div class="caption">Nearpod (10 slides)</div>
-                          </a>  
-  
-                      <a target="_blank" href="http://wpsu.org/games/wpsuGames_CryptologyFiles/index.html">
-                          <img src="images/integerOpsGame.JPG" height=150px class="GuideDocs" alt="Integer Operations Cryptology Game - Includes Multi-Step Problems & Substituttion" title="Integer Operations Cryptology Game - Includes Multi-Step Problems & Substituttion">
-                          <div class="caption">Substitute & Solve Game</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://create.kahoot.it/share/integer-operations/456139f7-c977-4c62-ad59-e6dc8e527e20">
-                          <img src="images/kahoot.png" height=150px class="GuideDocs" alt="18 Question Kahoot includes Multi-Step Problems, Substitution & Absolute Value" title="18 Question Kahoot includes Multi-Step Problems, Substitution & Absolute Value">
-                          <div class="caption">18Q Kahoot</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://www.education.com/game/ski-racer-missing-integers-with-mixed-operations/">
-                          <img src="images/IntegerOpsGame2.JPG" height=150px class="GuideDocs" alt="Mixed Integer Operations Skiing Game" title="Mixed Integer Operations Skiing Game">
-                          <div class="caption">Game</div>
-                          </a>  
-  
-                      <a target="_blank" href="https://www.teacherspayteachers.com/Product/Halloween-Digital-Escape-Room-Integer-Operations-6183764?st=cb2b07385c4cd699146ad8078df892e3">
-                          <img src="images/integerEscapeRoom.jpg" height=150px class="GuideDocs" alt="Mixed Integer Operations Escape Room" title="Mixed Integer Operations Escape Room">
-                          <div class="caption">Escape Room</div>
-                          </a>  
-  
-                  <!--Assessments-->
-                      <a target="_blank" href="https://app.formative.com/clone/4WXFP9">
-                          <img src="images/goformative.png" height=150px class="GuideDocs" alt="Collection of Assessments on Formative.com" title="Click to clone a copy of my Collection of Assessments on Formative.com">
-                          <div class="caption">Formative Assessment Collection</div>
-                          </a>   
-  
-                      <a target="_blank" href="images/IntegerOperationsDigitalPracticeDISTANCELEARNINGSELFCHECKINGFREE-1.pdf">
-                          <img src="images/Integer Operations Digital Practice DISTANCE LEARNING.jpg" height=150px class="GuideDocs" alt="Formative Assessment with Instant Feedback" title="Formative Assessment with Instant Feedback">
-                          <div class="caption">Digital Assessment</div>
-                          </a>   
-  
-                      <a target="_blank" href="https://www.teacherspayteachers.com/Product/Integers-and-Order-of-Operations-164568?st=cb2b07385c4cd699146ad8078df892e3">
-                          <img src="images/integerOpsWORKSHEET1.jpg" height=150px class="GuideDocs" alt="Hard Copy Assessment" title="Hard Copy Assessment">
-                          <div class="caption">Hard Copy Assessment</div>
-                          </a>   
-  
-              </div>
-          <br>              
-          </div>
-          <br>
+                    <br>
+                    <h2 style="color:white;">ABSOLUTE VALUE</h2>
+                        
+                    <!--images-->
+                        <a target="_blank" href="images/absVal1.gif" target="_blank">
+                            <img src="images/absVal1.gif" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/absVal2.gif" target="_blank">
+                            <img src="images/absVal2.gif" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/AbsVal3.png" target="_blank">
+                            <img src="images/AbsVal3.png" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+                        
+                        <a target="_blank" href="images/absVal4.png" target="_blank">
+                            <img src="images/absVal4.png" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/absVal5.gif" target="_blank">
+                            <img src="images/absVal5.gif" height=150px class="resource" alt="Absolute Value Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                    <!--videos-->
+                        <a href="https://www.youtube.com/watch?v=BrYy1bgh3Y0&t=19s">
+                            <iframe height="150" src="https://www.youtube.com/embed/BrYy1bgh3Y0" class="resource" alt="Absolute Value Video" title="13 min Math Antics Absolute Value Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">Absolute Value - Math Antics (13 min)</div>
+                            </a>
+
+                        <a href="https://www.youtube.com/watch?v=dQCNC97Y-mw">
+                            <iframe height="150" src="https://www.youtube.com/embed/dQCNC97Y-mw" class="resource" alt="Absolute Value Video" title="Absolute Value Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">Absolute Value Intro (6.5 min)</div>
+                            </a>
+
+                    <!--skills development-->
+                        <a target="_blank" href="https://www.khanacademy.org/math/arithmetic/arith-review-negative-numbers/arith-review-abs-value/e/absolute_value">
+                            <img src="images/khans.jpg" height=150px class="resource" alt="Khan Academy Absolute Value Videos & Practice Sets" title="Khan Academy Absolute Value Videos & Practice Sets">
+                            <div class="caption">Khan Academy Practice Sets</div>
+                            </a>
+
+                        <a target="_blank" href="https://www.ck12.org/search/?q=absolute%20value%20on%20a%20number%20line&source=ck12&grade=7">
+                            <img src="images/ck12.png" height=150px class="resource" alt="CK-12 Absolute Value Skill Development" title="CK-12 Skill Development">
+                            <div class="caption">CK-12 Skill Development</div>
+                            </a>
+
+                    <hr style="height:10px; color:#EAEFF5; opacity: 1">                 
+                    <h2 style="color:white;">EXPONENTS</h2>
+
+                    <!--images-->
+                        <a target="_blank" href="images/exp1.jpg">
+                            <img src="images/exp1.jpg" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/exp2.jpg">
+                            <img src="images/exp2.jpg" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/exp3.png">
+                            <img src="images/exp3.png" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/exp4.png">
+                            <img src="images/exp4.png" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+
+                        <a target="_blank" href="images/exp5.jpg">
+                            <img src="images/exp5.jpg" height=150px class="resource" alt="Exponent Image" title="LEFT CLICK to open in new window or RIGHT CLICK to copy/paste">
+                            <div class="caption">Image</div>
+                            </a>
+                        
+                    <!--videos-->
+                        <a href="https://www.youtube.com/watch?v=W3lPO3LrVuE&t=67s">
+                            <iframe height="150" src="https://www.youtube.com/embed/W3lPO3LrVuE" class="resource" alt="4 Minute Exponent Video" title="4 Minute Exponent Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">Caption</div>
+                            </a>
+
+                        <a href="https://www.youtube.com/watch?v=-zUmvpkhvW8">
+                            <iframe height="150" src="https://www.youtube.com/embed/-zUmvpkhvW8" class="resource" alt="Math Antics 10 minute Video on Exponents" title="Math Antics 10 minute Video on Exponents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">Exponents Intro - Math Antics (10 min)</div>
+                            </a>
+
+                    <!--Skills Development-->
+                        <a target="_blank" href="https://lsintspl3.wgbh.org/en-us/lesson/mgbh-il-linexp/1">
+                            <img src="images/expInteractive1.JPG" height=150px class="resource" alt="Interactive Activity to Visualize Exponential Growth" title="Interactive Activity to Visualize Exponential Growth">
+                            <div class="caption">Exponential Growth Interactive</div>
+                            </a>   
+
+                        <a target="_blank" href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-exponents/e/exponents">
+                            <img src="images/khans.jpg" height=150px class="resource" alt="Khan Academy Exponents Videos & Practice Sets" title="Khan Academy Exponents Videos & Practice Sets">
+                            <div class="caption">Khan Academy Practice Sets</div>
+                            </a>   
+
+                        <a target="_blank" href="https://www.ck12.org/search/?q=exponents&source=ck12&grade=6&grade=7">
+                            <img src="images/ck12.png" height=150px class="resource" alt="CK-12 Skill Development" title="CK-12 Skill Development">
+                            <div class="caption">CK-12 Skill Development</div>
+                            </a>   
+
+                    
+                    <hr style="height:10px; color:#EAEFF5; opacity: 1">   
+                    <h2 style="color:white;">ORDER OF OPERATIONS</h2>
+
+                    <!--images-->
+                        <a target="_blank" href="images/pemdas1.jpg">
+                            <img src="images/pemdas1.jpg" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
+                            <div class="caption">Image</div>
+                            </a>    
+                            
+                        <a target="_blank" href="images/pemdas2.jpg">
+                            <img src="images/pemdas2.jpg" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
+                            <div class="caption">Image</div>
+                            </a>    
+
+                        <a target="_blank" href="images/pemdas3.png">
+                            <img src="images/pemdas3.png" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
+                            <div class="caption">Image</div>
+                            </a>    
+                        
+                        <a target="_blank" href="images/pemdas4.jpg">
+                            <img src="images/pemdas4.jpg" height=150px class="resource" alt="Order of Operations Image" title="Order of Operations Image">
+                            <div class="caption">Image</div>
+                            </a>    
+
+                    <!--videos-->
+                        <a href="https://www.youtube.com/watch?v=dAgfnK528RA&t=469s">
+                            <iframe height="150" src="https://www.youtube.com/embed/dAgfnK528RA" class="resource" alt="Math Antics 9.5 minute Video on the Order of Operations " title="Math Antics 9.5 minute Video on the Order of Operations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">PEMDAS - Math Antics (9.5 min)</div>
+                            </a>
+
+                        <a href="https://www.youtube.com/watch?v=ZzeDWFhYv3E&t=7s">
+                            <iframe height="150" src="https://www.youtube.com/embed/ZzeDWFhYv3E" class="resource" alt="2 minute NumberRock Order of Operations Music Video" title="2 minute NumberRock Order of Operations Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">NumberROCK Music Video (2 min)</div>
+                            </a>
+
+                        <a href="https://www.youtube.com/watch?v=PheAykMQOVE">
+                            <iframe height="150" src="https://www.youtube.com/embed/PheAykMQOVE" class="resource" alt="2 minute BrainPop Video on the Order of Operations" title="2 minute BrainPop Video on the Order of Operations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">PEMDAS - BrainPOP (2 min)</div>
+                            </a>
+
+                    <!--Skills Development-->
+                        <a target="_blank" href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-order-of-operations/e/order_of_operations_2">
+                            <img src="images/khans.jpg" height=150px class="resource" alt="Order of Operations Videos & Practice Sets on Khan Academy" title="Order of Operations Videos & Practice Sets on Khan Academy">
+                            <div class="caption">Khan Academy Practice Sets</div>
+                            </a>   
+
+                        <a target="_blank" href="https://www.ck12.org/c/algebra/order-of-operations/">
+                            <img src="images/ck12.png" height=150px class="resource" alt="Collection of CK-12 Order of Operations Resources" title="Collection of CK-12 Order of Operations Resources">
+                            <div class="caption">CK-12 Resource Collection</div>
+                            </a>   
+                
+                </div>
+                <br>
+                <br>
+
+
+<!--Learning Objective 2-->
+            <br>
+            <h2 class="fw-dark px-2"> Compare & Order Integers </h2>
+            <button type="button" class="collapsible">Click to Expand or Collapse</button>
+                <div id="resource" class="content"> 
+                    
+                    <!--images-->
+                        <a target="_blank" href="images/compareInegers1.jpg">
+                            <img src="images/compareInegers1.jpg" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
+                            <div class="caption">Image</div>
+                            </a>  
+
+                        <a target="_blank" href="images/compareInegers2.png">
+                            <img src="images/compareInegers2.png" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
+                            <div class="caption">Image</div>
+                            </a> 
+
+                        <a target="_blank" href="images/compareInegers3.jpg">
+                            <img src="images/compareInegers3.jpg" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
+                            <div class="caption">Image</div>
+                            </a> 
+
+                        <a target="_blank" href="images/compareInegers4.jpg">
+                            <img src="images/compareInegers4.jpg" height=150px class="resource" alt="Compare & Order Integers Image" title="Compare & Order Integers Image">
+                            <div class="caption">Image</div>
+                            </a> 
+
+                    <!--videos-->
+                        <a href="https://www.youtube.com/watch?v=Zv2RbtaWdYU">
+                            <iframe height="150" src="https://www.youtube.com/embed/Zv2RbtaWdYU" class="resource" alt="4 Minute Video on Comparing Integers" title="4 Minute Video on Comparing Integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">Comparing Integers (4 min)</div>
+                            </a>
+
+                        <a href="https://www.youtube.com/watch?v=n5p307tjsB0">
+                            <iframe height="150" src="https://www.youtube.com/embed/n5p307tjsB0" class="resource" alt="5 Minutes Video on Ordering Integers & Absolute Value" title="5 Minutes Video on Ordering Integers & Absolute Value" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="caption">Ordering Integers (5 min)</div>
+                            </a>
+                    
+                    <!--Skills Development-->
+                        <a target="_blank" href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-negative-number-topic/cc-6th-comparing-negative-numbers/v/ordering-negative-numbers">
+                            <img src="images/khans.jpg" height=150px class="resource" alt="Ordering Integers Practice on Khan Academdy" title="Ordering Integers Practice on Khan Academdy">
+                            <div class="caption">Khan Academy Practice Sets</div>
+                            </a>    
+
+                        <a target="_blank" href="https://www.ck12.org/search/?q=ordering%20integers&source=ck12&grade=7&grade=6">
+                            <img src="images/ck12.png" height=150px class="resource" alt="Ordering Integers Resource Collection on CK-12" title="Ordering Integers Resource Collection on CK-12">
+                            <div class="caption">CK-12 Resource Collection</div>
+                            </a>   
+
+                        <a target="_blank" href="https://create.kahoot.it/share/compare-and-order-integers/157319ad-b445-48cf-8481-adea4fa4b5a7">
+                            <img src="images/kahoot.png" height=150px class="resource" alt="Kahoot Interactive Quiz Game for Comparing & Ordering Integers" title="Kahoot Interactive Quiz Game for Comparing & Ordering Integers">
+                            <div class="caption">Kahoot Game</div>
+                            </a>   
+
+                        <a target="_blank" href="images/compare-and-order-integers-part-1.pdf" download="WORKSHEET Compare & Order Integers Part 1">
+                            <img src="images/compare-and-order-integers-part-1.JPG" height=150px class="resource" alt="Worksheet: Compare & Order Integers Part 1" title="LEFT CLICK to download.  RIGHT CLICK & choose OPEN LINK IN NEW TAB to preview without downloading">
+                            <div class="caption">Worksheet</div>
+                            </a>  
+                            
+                        <a target="_blank" href="https://www.education.com/game/water-rafting-ordering-integers/">
+                            <img src="images/water-rafting-ordering-integers-small-thumbnail.png" height=150px class="resource" alt="Comparing Integers Game" title="Comparing Integers Game">
+                            <div class="caption">Comparing Integers Game</div>
+                            </a>   
+
+                </div>
+                <br>
+                <br>
+
+
+            
+<!--Learning Objective 3-->
+            <br>
+            <h2 class="fw-dark px-2"> Add & Subtract Integers </h2>
+            <button type="button" class="collapsible">Click to Expand or Collapse</button>
+            <div id="resource" class="content"> 
+                            
+                <!--images-->
+                    <a target="_blank" href="images/addInt1.png">
+                        <img src="images/addInt1.png" height=150px class="resource" alt="Rules for Integer Addition" title="Rules for Integer Addition">
+                        <div class="caption">Image</div>
+                        </a>
+
+                    <a target="_blank" href="images/subInt1.png">
+                        <img src="images/subInt1.png" height=150px class="resource" alt="Rules for Integer Subtraction" title="Rules for Integer Subtraction">
+                        <div class="caption">Image</div>
+                        </a>
+
+                    <a target="_blank" href="images/addSubInt1.png">
+                        <img src="images/addSubInt1.png" height=150px class="resource" alt="Integer addition & subtraction on a number line" title="Integer Addition & Subtraction on a Number Line">
+                        <div class="caption">Image</div>
+                        </a>
+
+                <!--videos-->
+                    <a href="https://www.youtube.com/watch?v=_BgblvF90UE">
+                        <iframe height="150" src="https://www.youtube.com/embed/_BgblvF90UE" class="resource" alt="Math Antics 11.5 min video on Adding & Subtracting Integers" title="Math Antics 11.5 min video on Adding & Subtracting Integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">Add & Subtract Integers - Math Antics (11.5 min)</div>
+                        </a>
+
+                    <a href="https://www.youtube.com/watch?v=DBSviXhkubg">
+                        <iframe height="150" src="https://www.youtube.com/embed/DBSviXhkubg" class="resource" alt="2 Minute Video that helps Visualize and Understand Addition & Subtraction of Negative Numbers" title="2 Minute Video that helps Visualize and Understand Addition & Subtraction of Negative Numbers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">+/- Negative #s (2 min)</div>
+                        </a>
+
+                    <a href="https://www.youtube.com/watch?v=NS8pYgpD474">
+                        <iframe height="150" src="https://www.youtube.com/embed/NS8pYgpD474" class="resource" alt="7 minute video showing how to teach integer addition & subtraction via a hands-on approach" title="7 minute video showing how to teach integer addition & subtraction via a hands-on approach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">Hands-On Learning (7 min)</div>
+                        </a>
+
+                <!--Skills Development-->
+                    <a target="_blank" href="https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-add-and-subtract">
+                        <img src="Images/khans.jpg" height=150px class="resource" alt="Khan Academy Unit on Adding & Subtracting Negative Numbers" title="Khan Academy Unit on Adding & Subtracting Negative Numbers">
+                        <div class="caption">Khan Academy Unit</div>
+                        </a>   
+
+                    <a target="_blank" href="https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/2.2/primary/lesson/modeling-the-addition-of-integers-4424692-msm7-ccss/">
+                        <img src="images/ck12.png" height=150px class="resource" alt="CK12 Interactive Modeling of Integer Addition" title="CK12 Interactive Modeling of Integer Addition">
+                        <div class="caption">Interactive Addition Modeling</div>
+                        </a>   
+
+                    <a target="_blank" href="https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/2.3/primary/lesson/adding-integers-other-rational-numbers-4424693-msm7-ccss/">
+                        <img src="images/ck12.png" height=150px class="resource" alt="CK12 Interactive Addition of Intgers & Other Rational Numbers" title="CK12 Interactive Addition of Intgers & Other Rational Numbers">
+                        <div class="caption">Interactive Addition</div>
+                        </a>  
+
+                    <a target="_blank" href="https://flexbooks.ck12.org/cbook/ck-12-interactive-middle-school-math-7-for-ccss/section/2.4/primary/lesson/subtracting-integers-other-rational-numbers-4424694-msm7-ccss/">
+                        <img src="images/ck12.png" height=150px class="resource" alt="CK12 Interactive Subtraction of Integers & Other Rational Numbers" title="CK12 Interactive Subtraction of Integers & Other Rational Numbers">
+                        <div class="caption">Interactive Subtraction</div>
+                        </a>  
+
+                    <a target="_blank" href="https://create.kahoot.it/share/integer-addition-subtraction/f429ac5e-4999-4a06-a06c-4019aaca24e1">
+                        <img src="images/kahoot.png" height=150px class="resource" alt="31 Question Kahoot with diverse question types" title="31 Question Kahoot with diverse question types">
+                        <div class="caption">31Q Kahoot</div>
+                        </a>  
+
+                    <a target="_blank" href="https://www.education.com/game/match-add-and-subtract-integers/">
+                        <img src="images/addSubIntGame.JPG" height=150px class="resource" alt="Matching Game for Adding/Subtracting Integers" title="Matching Game for Adding/Subtracting Integers">
+                        <div class="caption">Matching Game</div>
+                        </a>  
+
+                    <a target="_blank" href="images/add-and-subtract-integersWORKSHEET.pdf" download>
+                        <img src="images/add-and-subtract-integersWORKSHEET.JPG" height=150px class="resource" alt="WORKSHEET: Add & Subtract Integers" title="LEFT CLICK to download.  RIGHT CLICK & choose OPEN LINK IN NEW TAB to preview without downloading">
+                        <div class="caption">Worksheet</div>
+                        </a>  
+
+                    <a target="_blank" href="https://www.education.com/worksheet/article/integer-addition/">
+                        <img src="images/integer-addition-rules.gif" height=150px class="resource" alt="WORKSHEET Integer Addition Rules" title="WORKSHEET Integer Addition Rules">
+                        <div class="caption">Worksheet</div>
+                        </a>  
+
+                    <a target="_blank" href="https://www.education.com/worksheet/article/integer-subtraction/">
+                        <img src="images/integer-subtraction-rules.gif" height=150px class="resource" alt="WORKSHEET Integer Subtraction Rules" title="WORKSHEET Integer Subtraction Rules">
+                        <div class="caption">Worksheet</div>
+                        </a>  
+                    
+            </div>
+            <br>
+            <br>
+
+
+
+<!--Learning Objective 4-->
+            <br>
+            <h2 class="fw-dark px-2"> Multiply & Divide Integers </h2>
+            <button type="button" class="collapsible">Click to Expand or Collapse</button>
+            <div id="resource" class="content"> 
+                            
+                <!--images-->
+                    <a target="_blank" href="images/multDivIntegers1.jpg">
+                        <img src="images/multDivIntegers1.jpg" height=150px class="resource" alt="Multiplying & Dividing Integer Sign Rules Image" title="Click to open in a new window">
+                        <div class="caption">Image</div>
+                        </a>
+
+                    <a target="_blank" href="images/multDivIntegers2.png">
+                        <img src="images/multDivIntegers2.png" height=150px class="resource" alt="Multiplying & Dividing Integer Sign Rules Image for Visual Learners" title="Click to open in a new window">
+                        <div class="caption">Image</div>
+                        </a>
+
+                    <a target="_blank" href="images/multDivIntegers3.png">
+                        <img src="images/multDivIntegers3.png" height=150px class="resource" alt="Multiplying & Dividing Integer Sign Rules Image" title="Click to open in a new window">
+                        <div class="caption">Image</div>
+                        </a>
+
+                <!--videos-->
+                    <a href="https://www.youtube.com/watch?v=K_tPbVPfHgk">
+                        <iframe height="150" src="https://www.youtube.com/embed/K_tPbVPfHgk" class="resource" alt="10 minute Math Antics Video on Integer Multiplication & Division" title="10 minute Math Antics Video on Integer Multiplication & Division" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">Math Antics (10 min)</div>
+                        </a>
+
+                    <a href="https://www.youtube.com/watch?v=b5rK3XzHhTM">
+                        <iframe height="150" src="https://www.youtube.com/embed/b5rK3XzHhTM" class="resource" alt="5 minute Video using the triangle method to multiply & divide integers" title="5 minute Video using the triangle method to multiply & divide integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">Triangle Method (5 min)</div>
+                        </a>
+
+                    <a href="https://www.youtube.com/watch?v=WM5SyYlcRM4">
+                        <iframe height="150" src="https://www.youtube.com/embed/WM5SyYlcRM4" class="resource" alt="7.5 minute video using story problems to multiply & divid integers" title="7.5 minute video using story problems to multiply & divid integers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">Word Problems (7.5 min)</div>
+                        </a>
+
+                    <a href="https://www.youtube.com/watch?v=JYIj8XUS_g8">
+                        <iframe height="150" src="https://www.youtube.com/embed/JYIj8XUS_g8" class="resource" alt="1.5 minute video with 4 integer multiplication & division examples" title="1.5 minute video with 4 integer multiplication & division examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">4 Examples (1.5 min)</div>
+                        </a>
+
+                    <a href="https://www.youtube.com/watch?v=3-aryZYsoxU">
+                        <iframe height="150" src="https://www.youtube.com/embed/3-aryZYsoxU" class="resource" alt="5 minute video explaining how to think of the negative sign as 'OPPOSITE'" title="5 minute video explaining how to think of the negative sign as 'OPPOSITE'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="caption">Negative-->"Opposite" (5 min)</div>
+                        </a>
+
+                <!--Skills Development-->
+
+                    <a target="_blank" href="https://nebraskapublicmedia.pbslearningmedia.org/resource/mmpt-math-ee-intballoon2/multiplying-a-positive-integer-with-a-negative-intege/">
+                        <img src="images/multIntegInteractive1.JPG" height=150px class="resource" alt="Interactive Scenarios for multiplying a positive and negative" title="Interactive Scenarios for multiplying a positive and negative">
+                        <div class="caption">Interactive Scenario</div>
+                        </a>   
+
+                    <a target="_blank" href="https://nebraskapublicmedia.pbslearningmedia.org/resource/mgbh-math-ns-muldivnegs/multiplying-and-dividing-with-negatives/">
+                        <img src="images/multDivIntegersInteractive2.JPG" height=150px class="resource" alt="Multiplication & Division of Integers Interactive" title="Multiplication & Division of Integers Interactive">
+                        <div class="caption">Interactive</div>
+                        </a>   
+
+                    <a target="_blank" href="https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-multiply-and-divide">
+                        <img src="images/khans.jpg" height=150px class="resource" alt="Khan Academy Unit on Multiplying & Dividing Negative Numbers" title="Khan Academy Unit on Multiplying & Dividing Negative Numbers">
+                        <div class="caption">Khan Academy Unit</div>
+                        </a>   
+
+                    <a target="_blank" href="https://create.kahoot.it/details/1e12b743-f011-4678-a12b-9d31ca682089">
+                        <img src="images/kahoot.png" height=150px class="resource" alt="36 Question Kahoot with Multi-Step problems & Exponents" title="36 Question Kahoot with Multi-Step problems & Exponents">
+                        <div class="caption">36Q Kahoot</div>
+                        </a>   
+
+                    <a target="_blank" href="https://www.education.com/worksheet/article/integer-multiplication-and-division-rules/">
+                        <img src="images/integer-multiplication-division-rules.gif" height=150px class="resource" alt="WORKSHEET: Integer Multiplication & Division Rules" title="WORKSHEET: Integer Multiplication & Division Rules">
+                        <div class="caption">Worksheet</div>
+                        </a>  
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+
+
+<!--Accumulative Review & Assessments-->
+    
+            <h2 class="fw-dark px-2"> Accumulative Review & Assessments </h2>
+            <button type="button" class="collapsible">Click to Expand or Collapse</button>
+            <div id="GuideDocs" class="content"> 
+                    
+                <!--Skills Development-->
+                    <a target="_blank" href="https://wow.boomlearning.com/deck/integer-operations-9KbNm3aHwbezFseGs">
+                        <img src="images/BOOMcardsIntegeroperationscover.jpg" height=150px class="resource" alt="10 Card Mixed Operations Practice w/Instant Feedback" title="10 Card Mixed Operations Practice w/Instant Feedback">
+                        <div class="caption">BOOM Cards (10 cards)</div>
+                        </a>  
+
+                    <a target="_blank" href="https://wow.boomlearning.com/deck/integer-operations-sf8RfX3DNmsmyzMcf">
+                        <img src="images/BOOMcardsIntegeroperationsholiday.png" height=150px class="resource" alt="17 Card Mixed Operations Practice w/Instant Feedback" title="10 Card Mixed Operations Practice w/Instant Feedback">
+                        <div class="caption">BOOM Cards (17 cards)</div>
+                        </a> 
+                    
+                    <a target="_blank" href="https://nearpod.com/t/math/6th/integer-operations-68-L69904146">
+                        <img src="images/NearpodIntegerOps1.JPG" height=150px class="GuideDocs" alt="Nearpod Interactive Activity" title="Nearpod Interactive Activity">
+                        <div class="caption">Nearpod (8 slides)</div>
+                        </a>   
+
+                    <a target="_blank" href="https://nearpod.com/t/math/8th/assessment-integer-word-problems-L32675573">
+                        <img src="images/NearpodIntegerStoryProbs.JPG" height=150px class="GuideDocs" alt="Nearpod Storyproblem Activity" title="Nearpod Storyproblem Activity">
+                        <div class="caption">Nearpod (10 slides)</div>
+                        </a>  
+
+                    <a target="_blank" href="http://wpsu.org/games/wpsuGames_CryptologyFiles/index.html">
+                        <img src="images/integerOpsGame.JPG" height=150px class="GuideDocs" alt="Integer Operations Cryptology Game - Includes Multi-Step Problems & Substituttion" title="Integer Operations Cryptology Game - Includes Multi-Step Problems & Substituttion">
+                        <div class="caption">Substitute & Solve Game</div>
+                        </a>  
+
+                    <a target="_blank" href="https://create.kahoot.it/share/integer-operations/456139f7-c977-4c62-ad59-e6dc8e527e20">
+                        <img src="images/kahoot.png" height=150px class="GuideDocs" alt="18 Question Kahoot includes Multi-Step Problems, Substitution & Absolute Value" title="18 Question Kahoot includes Multi-Step Problems, Substitution & Absolute Value">
+                        <div class="caption">18Q Kahoot</div>
+                        </a>  
+
+                    <a target="_blank" href="https://www.education.com/game/ski-racer-missing-integers-with-mixed-operations/">
+                        <img src="images/IntegerOpsGame2.JPG" height=150px class="GuideDocs" alt="Mixed Integer Operations Skiing Game" title="Mixed Integer Operations Skiing Game">
+                        <div class="caption">Game</div>
+                        </a>  
+
+                    <a target="_blank" href="https://www.teacherspayteachers.com/Product/Halloween-Digital-Escape-Room-Integer-Operations-6183764?st=cb2b07385c4cd699146ad8078df892e3">
+                        <img src="images/integerEscapeRoom.jpg" height=150px class="GuideDocs" alt="Mixed Integer Operations Escape Room" title="Mixed Integer Operations Escape Room">
+                        <div class="caption">Escape Room</div>
+                        </a>  
+
+                <!--Assessments-->
+                    <a target="_blank" href="https://app.formative.com/clone/4WXFP9">
+                        <img src="images/goformative.png" height=150px class="GuideDocs" alt="Collection of Assessments on Formative.com" title="Click to clone a copy of my Collection of Assessments on Formative.com">
+                        <div class="caption">Formative Assessment Collection</div>
+                        </a>   
+
+                    <a target="_blank" href="images/IntegerOperationsDigitalPracticeDISTANCELEARNINGSELFCHECKINGFREE-1.pdf">
+                        <img src="images/Integer Operations Digital Practice DISTANCE LEARNING.jpg" height=150px class="GuideDocs" alt="Formative Assessment with Instant Feedback" title="Formative Assessment with Instant Feedback">
+                        <div class="caption">Digital Assessment</div>
+                        </a>   
+
+                    <a target="_blank" href="https://www.teacherspayteachers.com/Product/Integers-and-Order-of-Operations-164568?st=cb2b07385c4cd699146ad8078df892e3">
+                        <img src="images/integerOpsWORKSHEET1.jpg" height=150px class="GuideDocs" alt="Hard Copy Assessment" title="Hard Copy Assessment">
+                        <div class="caption">Hard Copy Assessment</div>
+                        </a>   
+
+            </div>
+        <br>              
+        </div>
+        <br>
 
   
 <!--wwww.htmlcommentbox.com -->
@@ -682,7 +611,7 @@
 
 
 <!--Link to External Javascript -->
-<!--Where do comments go??...How do I delete them?-->
+<!--Where do comments go??...How do I delete them?  I simply deleted them in my browser-->
       <script src="Rolf's Digital Math Repository.js"></script>
   
           

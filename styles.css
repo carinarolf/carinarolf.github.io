@@ -694,6 +694,7 @@ progress {
 .row-cols-auto > * {
   flex: 0 0 auto;
   width: auto;
+
 }
 
 .row-cols-1 > * {
@@ -4534,8 +4535,6 @@ textarea.form-control-lg {
 .card > .list-group + .card-footer {
   border-top: 0;
 }
-
-/*look into establishing a standard card height to keep uniform look*/
 
 .card-body {
   flex: 1 1 auto;
@@ -11279,65 +11278,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-
-
-
-  /*Style the content sections on each unit page and the captions within here to override bootstrap css*/
-              
-                #GuideDocs{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: #ffca2c;
-                  color:black;
-                }
-              
-                #GuideDocs a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:black;
-                }
-              
-                #resource{
-                  text-align:center;
-                  margin:10px auto;
-                  background-color: #4f061c;
-                  color:#fff;
-                }
-              
-                #resource a{
-                  margin:30px 20px;
-                  display:inline-block;
-                  text-decoration:none;
-                  color:#fff;
-                }
-              
-/* Style the button that is used to open and close the collapsible content */
-                .collapsible {
-                  background-color: #eee;
-                  color: #444;
-                  cursor: pointer;
-                  padding: 18px;
-                  width: 100%;
-                  border: none;
-                  text-align: left;
-                  outline: none;
-                  font-size: 15px;
-                }
-              
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-                .active, .collapsible:hover {
-                  background-color: #ccc;
-                }
-              
-/* Style the collapsible content. Note: hidden by default */
-                .content {
-                  padding: 0 18px;
-                  display: none;
-                  overflow: hidden;
-                  background-color: #f1f1f1;
-                }       
-
+    
 
 
 /*# sourceMappingURL=bootstrap.css.map */
