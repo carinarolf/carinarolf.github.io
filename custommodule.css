@@ -1,4 +1,4 @@
-#resource{
+  #resource{
     text-align:left;
     margin:10px auto;
   }
@@ -36,3 +36,31 @@
     overflow: hidden;
     background-color: #f1f1f1;
   }       
+
+
+/*STyle for resource links */
+  a {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #0a58ca;
+  0
+
+/*added for unit page cards background color and margins*/
+  #unitcardbg {
+    background-color: #8b2942;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+/*trying to fix hyperlink bullet vertical spacing*/
+  .bulletlinks {
+      line-height: 180px;
+      margin: 0 0 0;
+  }
+
+
+
+  
