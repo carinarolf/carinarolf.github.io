@@ -34,7 +34,7 @@
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #fff;
   }       
 
 
@@ -45,22 +45,20 @@
   }
   a:hover {
     color: #0a58ca;
-  0
+  }
 
 /*added for unit page cards background color and margins*/
   #unitcardbg {
-    background-color: #8b2942;
+    background-color: #4f061c;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
   }
 
-/*trying to fix hyperlink bullet vertical spacing*/
-  .bulletlinks {
-      line-height: 180px;
+/*trying to fix hyperlink bullet vertical spacing & style*/
+  .bulletlinks a{
+      line-height: 18px;
       margin: 0 0 0;
+      text-decoration: underline;
+      color:#0d6efd;
   }
-
-
-
-  
