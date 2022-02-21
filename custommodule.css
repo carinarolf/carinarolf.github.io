@@ -4,10 +4,10 @@
   }
 
   #resource a{
-    word-wrap: break-word;
+    margin:30px 20px;
+    display:inline-block;
     text-decoration:none;
-    text-decoration: underline;
-    color:#0d6efd;
+    color:#fff;
   }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -62,9 +62,3 @@
       text-decoration: underline;
       color:#0d6efd;
   }
-
-/*trying to fix the multiply white backgrounds when cards are expended*/
-  .bg-light {
-    --bs-bg-opacity: 0;
-    background-color: #fff;
-}
